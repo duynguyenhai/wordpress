@@ -1,0 +1,31 @@
+/* 
+    Document   : style
+    Author     : Bilal
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.center{
+    text-align: center;
+}
+.sc-tooltip-wrapper{
+	max-width: 600px;
+	height: auto;
+	background: #ffffff;
+	color: #333333;
+	z-index: 9999;
+	display: none;
+	overflow: hidden;
+	position: absolute;
+	border-radius: 10px;
+	box-shadow: 0 0 7px #333;
+	height: auto;
+}
+.sc-tooltip-wrapper img{
+	float: right;
+	/*max-width: 150px;*/
+	height: 120px;
+}
+.sc-tooltip-wrapper span{
+	padding: 10px;
+	display: block;
+}
